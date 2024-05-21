@@ -1,0 +1,93 @@
+*{
+    text-decoration: none;
+    
+}
+body{
+    background-color: rgb(0, 0, 0);
+    box-sizing: border-box;
+}
+
+div .scrollmenu{
+    overflow-y: auto;
+    background: #000000;
+    width: 200px;
+    height: 565px;
+    padding-top: 50px;
+}
+.top{
+    display: inline-flex;
+}
+div .scrollmenu a{
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 0 0 30px 40px;
+    
+}
+div .scrollmenu a:hover{
+    background-color: rgba(99, 107, 114, 0.74);
+}
+
+#nav{
+    margin-top: 20px;
+    margin-left: 30px;
+    
+    display: inline-flex;
+}
+.logo{
+    width: 100px;
+}
+.search{
+    margin-left: 300px;
+    display: flex;
+}
+
+.search input{
+    width: 500px;
+    border: none;
+    outline: none;
+    padding: 6px;
+    padding-left: 20px;
+    border-radius: 30px;
+    font-size: 17px;
+
+}
+.search button{
+    border-radius: 30px;
+}
+.search button img{
+    width: 25px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+.iframe{
+    margin: 40px 0 0 30px;
+}
+
+p{
+    color: white;
+}
+.iframe img{
+    width: 40px;
+    border-radius: 30px;
+    padding: 10px 5px 0 0;
+    
+}
+.iframe h3{
+    color: white;
+    display: inline-block;
+    padding: 0 0 10px 5px;
+    position: absolute;
+}
+.iframe button{
+    display: inline-block;
+    position: absolute;
+    margin: 20px 0 0 550px;
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+}
